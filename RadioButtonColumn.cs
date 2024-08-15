@@ -12,7 +12,7 @@ namespace AssetStatusInfo
 {
     internal class RadioButtonColumn
     {
-        private List<string> checkBoxColumnNames = new List<string>(); //unused 
+        private List<string> checkBoxColumnNames = new List<string>();
         private Dictionary<string, List<string>> tablesWithCheckboxColumns = new Dictionary<string, List<string>>();
         private Dictionary<string, int> selectedCell = new Dictionary<string, int>();
         //coloring 
